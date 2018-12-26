@@ -1,0 +1,27 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.content-wrapper {
+  margin: 20px;
+}
+
+.comment-card {
+  border-left: 6px solid whitesmoke;
+  padding-left: 20px;
+  margin: 0px 20px;
+}
+
+.answer-message {
+  background-color: #fffee2;
+}
+
+.comment-link {
+  margin-left: 1rem;
+  color: rgb(12, 6, 6);
+
+  &:hover {
+    text-decoration: none;
+    color: #df1b1b;
+  }
+}

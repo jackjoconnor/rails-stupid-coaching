@@ -1,0 +1,14 @@
+
+<div class="comment-card">
+  <% if @question.blank? %>
+    Please ask a question!
+  <% else %>
+    <%= @question.capitalize %>
+  <% end %>
+  <p> - <em>You</em> </p>
+</div>
+<div class="comment-card answer-message">
+  <p><%= @answer.capitalize %></p>
+  <p> - <em>Your coach</em> </p>
+</div>
+<%= link_to "Ask a new question", ask_path, class:"comment-link" %>
